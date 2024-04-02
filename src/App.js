@@ -12,7 +12,7 @@ const ListZines = magazines.map(zinc =>
   <li
   key={ZineRack.id}
   style={{
-    color: zine.isAvailable ? 'green' : 'red'
+    color: zine.isAvailable? 'green' : 'red'
   }}
   >
     {zine.title}
