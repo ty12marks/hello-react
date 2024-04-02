@@ -4,7 +4,7 @@ import './App.css';
 const magazines = [
   { id: 1, title: 'Architectural Digest', theme: 'architecture', isAvailable: true},
   { id: 2, title: 'Dwell', theme: 'architecture', isAvailable: true},
-  { id: 3, title: 'Communication Arts', Theme: 'design', isAvailable: True },
+  { id: 3, title: 'Communication Arts', Theme: 'design', isAvailable: false},
 ];
 
 function ZineRack() {
