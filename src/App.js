@@ -8,18 +8,18 @@ const magazines = [
 ];
 
 function ZineRack() {
-const ListZines = magazines.map(zinc =>
-  <li
-  key={ZineRack.id}
-  style={{
-    color: zine.isAvailable? 'green' : 'red'
-  }}
-  >
-    {zine.title}
+  const listZines = magazines.map(zine =>
+    <li
+      key={zine.id}
+      style={{
+        color: zine.isAvailable ? 'red' : 'green'
+      }}
+    >
+      {zine.title}
     </li>
   );
   return (
-    <ul>{ListZines}</ul>
+    <ul>{listZines}</ul>
   )
 }
 const book = {
