@@ -19,7 +19,7 @@ const ListZines = magazines.map(zinc =>
     </li>
   );
   return (
-    <ul>{listZines}</ul>
+    <ul>{ListZines}</ul>
   )
 }
 const book = {
