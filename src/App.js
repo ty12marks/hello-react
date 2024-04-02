@@ -8,19 +8,19 @@ const magazines = [
 ];
 
 function ZineRack() {
-  const listZines = magazines.map(zine =>
-    <li
-      key={zine.id}
+  const ListZines = magazines.map(zine =>
+    <li 
+    key={zines.id}>
       style={{
-        color: zine.isAvailable ? 'red' : 'green'
+        color: zine.isAvailable ? 'green' : 'red'
       }}
-    >
+      >
       {zine.title}
     </li>
-  );
-  return (
-    <ul>{listZines}</ul>
-  )
+};
+return (
+  <ul>{listZines}</ul>
+)
 }
 const book = {
   title: 'Full Metal alchemist',
