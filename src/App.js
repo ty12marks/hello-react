@@ -19,7 +19,7 @@ function ZineRack() {
     </li>
   );
 return (
-  <ul>{listZines}?</ul>
+  <ul>{ListZines}</ul>
 )
 }
 
