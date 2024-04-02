@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 const magazines = [
-  { id: 1, title: 'The New Yorker', theme: 'News', isAvailable: true},
-  { id: 2, title: 'Vogue', theme: 'Fashion', isAvailable: true},
-  { id: 3, title: 'Wired', Theme: 'design', isAvailable: True },
+  { id: 1, title: 'Architectural Digest', theme: 'architecture', isAvailable: true},
+  { id: 2, title: 'Dwell', theme: 'architecture', isAvailable: true},
+  { id: 3, title: 'Communication Arts', Theme: 'design', isAvailable: True },
 ];
 
 function ZineRack() {
