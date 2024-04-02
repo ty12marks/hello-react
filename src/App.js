@@ -10,18 +10,19 @@ const magazines = [
 function ZineRack() {
   const ListZines = magazines.map(zine =>
     <li 
-    key={zines.id}>
+    key={zine.id}
       style={{
         color: zine.isAvailable ? 'green' : 'red'
       }}
       >
       {zine.title}
     </li>
-};
+  );
 return (
   <ul>{listZines}</ul>
 )
 }
+
 const book = {
   title: 'Full Metal alchemist',
   author: 'Hiromu Arakawa',
